@@ -241,7 +241,15 @@ main {
 #info {
   margin-bottom: 0.75rem;
 }
-.prev-btn,
+.prev-btn {
+  color: var(--clr-primary-7);
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: var(--transition);
+  cursor: pointer;
+}
 .next-btn {
   color: var(--clr-primary-7);
   font-size: 1.25rem;
@@ -251,7 +259,9 @@ main {
   transition: var(--transition);
   cursor: pointer;
 }
-.prev-btn:hover,
+.prev-btn:hover{
+  color: var(--clr-primary-5);
+}
 .next-btn:hover {
   color: var(--clr-primary-5);
 }
